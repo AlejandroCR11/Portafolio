@@ -1,0 +1,63 @@
+    :root {
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    body {
+      margin: 100px;
+      font-family: var(--font-sans);
+      background-color: #0d1117; /* Fondo oscuro de GitHub */
+      color: #e6edf3; /* Texto principal */
+    }
+    
+    .github-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    /* Ajustes para bloques de código (como en GitHub) */
+    .markdown-body pre {
+      background-color: #161b22 !important;
+      border-radius: 6px;
+      padding: 16px;
+    }
+    .btn {
+      font-family: var(--font-sans);
+      
+    }
+    
+
+    .foto_perfil { 
+      display:block;
+      margin:auto;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      border-radius: 100px;
+      height: 200px;
+      width: 200px;
+      justify-content: center;
+
+    }
+    
+    h1, h2, h3, h4{
+
+      text-align: center;
+    }
+
+    li{
+      display:block;
+      text-align: center;
+    }
+
+    .enlace{
+      display:block;
+      gap: 100px;
+    }
+    .curiculum{
+      display: block;
+      margin: 1000px;
+    }
+
+    .github{
+      display: block;
+      text-align: center;
+    }
