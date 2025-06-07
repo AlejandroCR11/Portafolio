@@ -22,17 +22,42 @@
     }
     .btn {
       font-family: var(--font-sans);
+      
     }
     
 
     .foto_perfil { 
-      margin-left: 100px;
+      display:block;
+      margin:auto;
       margin-top: 50px;
       margin-bottom: 10px;
       border-radius: 100px;
       height: 200px;
       width: 200px;
+      justify-content: center;
 
     }
-
     
+    h1, h2, h3, h4{
+
+      text-align: center;
+    }
+
+    li{
+      display:block;
+      text-align: center;
+    }
+
+    .enlace{
+      display:block;
+      gap: 100px;
+    }
+    .curiculum{
+      display: block;
+      margin: 1000px;
+    }
+
+    .github{
+      display: block;
+      text-align: center;
+    }
