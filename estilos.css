@@ -3,7 +3,7 @@
       --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
     }
     body {
-      margin: 100px;
+      margin: 60px;
       font-family: var(--font-sans);
       background-color: #0d1117; /* Fondo oscuro de GitHub */
       color: #e6edf3; /* Texto principal */
@@ -43,21 +43,45 @@
       text-align: center;
     }
 
-    li{
-      display:block;
-      text-align: center;
+       .contenedor-enlaces {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    width: 100%;
+    max-width: 800px; /* Ajusta según necesidad */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 10px;
+  }
+
+    ul {
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      list-style: none;
+      padding: 0;
+      gap: 20px; /* Espacio entre elementos */
+    }
+       ul li:nth-child(1) {
+      color: #2965f1; /* CSS */
     }
 
-    .enlace{
-      display:block;
-      gap: 100px;
-    }
-    .curiculum{
-      display: block;
-      margin: 1000px;
+    ul li:nth-child(2) {
+      color: #e34c26; /* HTML */
     }
 
-    .github{
-      display: block;
-      text-align: center;
+    ul li:nth-child(3) {
+      color: #f7df1e; /* JavaScript */
     }
+
+    ul li:nth-child(4) {
+      color: #3776ab; /* Python */
+    }
+    
+     .github {
+    display: block; /* Convierte el enlace en bloque */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin: 0 auto;     /* Centra horizontalmente */
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
